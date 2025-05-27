@@ -9,7 +9,7 @@ import './index.css';
 function App() {
   return (
     <HelmetProvider>
-      <div className="bg-white">
+      <div className="min-h-screen bg-white text-black dark:bg-dark dark:text-white transition-colors duration-300">
         <Header />
         <main>
           <Hero />

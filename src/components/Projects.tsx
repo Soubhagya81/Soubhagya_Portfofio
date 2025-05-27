@@ -13,13 +13,13 @@ const projects: Project[] = [
     title: "Markdown Editor",
     description: "A real-time collaborative Markdown editor with live preview",
     tech: ["React", "Javascript", "WebSocket", "Tailwind CSS"],
-    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
+    image: "https://cdn.jsdelivr.net/gh/Soubhagya81/Soubhagya_Portfofio@main/src/assets/Mark-down.png"
   },
   {
     title: "NetFlix Clone",
     description: "A clone of the popular streaming service with a modern UI",
     tech: ["React", "Redux", "Firebase", "Tailwind CSS", "Javascript", "TMDB API"],
-    image: "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg"
+    image: "https://cdn.jsdelivr.net/gh/Soubhagya81/Soubhagya_Portfofio@main/src/assets/netflix.png"
   }
 ];
 
@@ -62,7 +62,7 @@ export default function Projects() {
                   {project.tech.map(tech => (
                     <span 
                       key={tech}
-                      className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm"
+                      className="bg-gray-100 text-gray-700  px-3 py-1 rounded-full text-sm"
                     >
                       {tech}
                     </span>

@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import ToggleTheme from './ToggleTheme';
+
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,16 +32,19 @@ export default function Header() {
             Soubhagya Ranjan Jena
           </motion.div>
           <div className="hidden md:flex space-x-8">
-            {['About', 'Projects', 'Skills', 'Contact'].map((item) => (
+            {['About', 'Projects', 'Skills', 'Contact', ].map((item) => (
               <motion.a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-gray-700 dark:text-gray-200 hover:text-primary transition-colors"
                 whileHover={{ scale: 1.1 }}
               >
                 {item}
               </motion.a>
             ))}
+          </div>
+          <div>
+            <ToggleTheme />
           </div>
         </div>
       </nav>

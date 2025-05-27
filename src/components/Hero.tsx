@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-100">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-100 dark:from-dark dark:to-gray-900">
       <div className="container mx-auto px-6 py-24 text-center">
         <motion.h1
-          className="text-5xl md:text-7xl font-bold text-dark mb-6"
+          className="text-5xl md:text-7xl font-bold text-dark mb-6 dark:text-white"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
