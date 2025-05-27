@@ -1,57 +1,33 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This repository is a comprehensive showcase of my journey as a developer, featuring my projects, technical skills, and professional experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 About Me
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Hello! I'm a passionate and dedicated software developer with a keen interest in building impactful and efficient software solutions. My journey in technology has equipped me with a strong foundation in both front-end and back-end development, and I am always eager to learn new technologies and take on challenging projects.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Location:** Bangalore, India
+- **Education:** B.Tech
+- **Interests:** Web Development, Open Source, UI/UX Design, Cloud Computing
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Skills
+
+- **Programming Languages:** JavaScript, TypeScript
+- **Frameworks & Libraries:** React, Node.js, Express, Redux
+- **Databases:** MongoDB, PostgreSQL, MySQL
+- **Tools & Platforms:** Git, GitHub, VS Code, Docker, Figma, Azure
+- **Other:** REST APIs, GraphQL, Agile Methodologies, Unit Testing
+
+
+## 📫 Contact
+
+- **Email:** soubhagyajena86@gmail.com
+- **LinkedIn:** [Soubhagya Ranjan Jena](https://www.linkedin.com/in/soubhagya-ranjan-jena-20a090165/)
+
+---
+
+*Thank you for visiting my portfolio! Feel free to connect or reach out for collaboration opportunities.*

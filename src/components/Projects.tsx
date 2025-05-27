@@ -10,15 +10,15 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Project One",
-    description: "A full-stack application with real-time features",
-    tech: ["React", "Node.js", "TypeScript", "WebSocket"],
+    title: "Markdown Editor",
+    description: "A real-time collaborative Markdown editor with live preview",
+    tech: ["React", "Javascript", "WebSocket", "Tailwind CSS"],
     image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
   },
   {
-    title: "Project Two",
-    description: "Mobile-first responsive web application",
-    tech: ["React Native", "Redux", "Firebase"],
+    title: "NetFlix Clone",
+    description: "A clone of the popular streaming service with a modern UI",
+    tech: ["React", "Redux", "Firebase", "Tailwind CSS", "Javascript", "TMDB API"],
     image: "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg"
   }
 ];
